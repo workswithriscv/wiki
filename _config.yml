@@ -3,7 +3,7 @@ remote_theme: Drassil/git-wiki-theme@master
 title: "The RISC-V Discord Wiki"
 # (string) if you've installed your wiki in subfolder, you must change this configuration
 # with your folder name, otherwise leave it empty
-baseurl: ""
+baseurl: 
 # (string) Description of your wiki
 description: Curated resources and guides from the RISC-V Community Discord
 # (boolean) disable edit functionalities (edit/delete/add pages)
@@ -23,7 +23,7 @@ paginate: 5
 paginate_path: "/blog/page:num"
 permalink: /blog/posts/:year/:month/:day/:title:output_ext
 # (boolean) Enable/disable download buttons in sidebar
-show_downloads: true
+show_downloads: false
 # (string) Specify branch rendered by gitpages allowing wiki tool buttons to work
 git_branch: "main"
 # (string) Url of logo image, it can be full, absolute or relative.
