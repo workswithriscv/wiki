@@ -131,7 +131,7 @@ inc_before_content :
 inc_after_content : 
 inc_before_footer : 
 inc_after_footer : 
-inc_before_head : partials/beampipe.html
+inc_before_head : beampipe.html
 inc_after_head : 
 inc_before_meta : 
 inc_after_meta : 
