@@ -5,13 +5,17 @@ The BSP (or Board Support Package) is the OS shipped by Sipeed for the Lichee Pi
 # Images
 
 As of 2024-06-10, these are the latest images (and their SHA156 checksums):
-6fe4d7a4ff75b51d5be78ea852836adc56b939e7946d2ab47efbc66f5df9e1ee  [boot-lpi4a-20231210_134926.ext4](https://objects.workswithriscv.guide/lpi4a-20231210/boot-lpi4a-20231210_134926.ext4)
-1a860f9704523e1d02746643ce7e95f9e29e4e5e08ffe19ad51072e06ff734c7  [root-lpi4a-20231210_134926.ext4](https://objects.workswithriscv.guide/lpi4a-20231210/root-lpi4a-20231210_134926.ext4)
-52f99ea3a5e68db81aa3cca0e30f82a1148d40873caac6d3e8c44553a4800eef  [u-boot-with-spl-lpi4a-16g.bin](https://objects.workswithriscv.guide/lpi4a-20231210/u-boot-with-spl-lpi4a-16g.bin)
-9d510de0e2035553950d9aea2529a90c5e3aaa7a44ffab6ee800e823097295f9  [u-boot-with-spl-lpi4a.bin](https://objects.workswithriscv.guide/lpi4a-20231210/u-boot-with-spl-lpi4a.bin)
+
+* 6fe4d7a4ff75b51d5be78ea852836adc56b939e7946d2ab47efbc66f5df9e1ee  [boot-lpi4a-20231210_134926.ext4](https://objects.workswithriscv.guide/lpi4a-20231210/boot-lpi4a-20231210_134926.ext4)
+* 1a860f9704523e1d02746643ce7e95f9e29e4e5e08ffe19ad51072e06ff734c7  [root-lpi4a-20231210_134926.ext4](https://objects.workswithriscv.guide/lpi4a-20231210/root-lpi4a-20231210_134926.ext4)
+* 52f99ea3a5e68db81aa3cca0e30f82a1148d40873caac6d3e8c44553a4800eef  [u-boot-with-spl-lpi4a-16g.bin](https://objects.workswithriscv.guide/lpi4a-20231210/u-boot-with-spl-lpi4a-16g.bin)
+* 9d510de0e2035553950d9aea2529a90c5e3aaa7a44ffab6ee800e823097295f9  [u-boot-with-spl-lpi4a.bin](https://objects.workswithriscv.guide/lpi4a-20231210/u-boot-with-spl-lpi4a.bin)
+
 
 This is the tooling for getting the fastboot tool to upload the images:
-c018507979a32eaa929739dbaf89d83f7690e56775fbd031d9094a0b43049c63  [burn_tools.zip](https://objects.workswithriscv.guide/lpi4a-20231210/burn_tools.zip)
+
+* c018507979a32eaa929739dbaf89d83f7690e56775fbd031d9094a0b43049c63  [burn_tools.zip](https://objects.workswithriscv.guide/lpi4a-20231210/burn_tools.zip)
+
 
 ## Entering fastboot mode
 
