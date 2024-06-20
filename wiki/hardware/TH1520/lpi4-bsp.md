@@ -1,3 +1,8 @@
+---
+title: Updating the BSP on the eMMC of the Sipeed Lichee Pi 4A
+folder: th1520
+---
+
 # Updating the BSP on the eMMC of the Sipeed Lichee Pi 4A
 
 The BSP (or Board Support Package) is the OS shipped by Sipeed for the Lichee Pi 4A
