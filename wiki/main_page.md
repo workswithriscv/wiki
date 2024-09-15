@@ -12,4 +12,20 @@ The goal of this wiki is to provide information and resources for using RISC-V h
 
 # Organization of Content
 
-This wiki is built atop the [git-wiki](https://www.drassil.org/git-wiki/main_page) project and published using GitHub Pages. We organize the content of this wiki based on the SoC for hardware, and the upstream projects for software. This can be somewhat confusing in certain cases where we make packages for a specific distrobution - the idea is to push changes upstream first and let the distros pull from there. However, some packages seem like they should be upstream but are instead managed by the distro (the Linux Kernel being the biggest example here), in those cases we are pushing towards the distro and not upstream. If you're confused, no problem ask for help. We're probably confused as well.
+This wiki is built with the [git-wiki](https://www.drassil.org/git-wiki/main_page) project and published using GitHub Pages. Within the repo, you will see the pages are largely split into to major taxonomies: "hardware" and "software". 
+
+## Hardware
+
+For each piece of hardware, we organize by the SoC (aka the main chip). There is a folder for each chip, and pages for each chip within the folder. There is typically a `boards` file for each chip that shows and links to known boards for each chip. The specifications and operating system support is typically the same between all the boards so this makes sense.
+
+For each piece of hardware, there is usually a BSP or Board Support Package which is the default software shipped on the board. There is also bootloader support for each board, typically Das U-Boot, and information for that is typically unique for each board (especially when a vendor fork is needed, which is very common for newly released SoCs). Both the vendor bootloaders and anything related to the BSP should be on the hardware pages instead of the software pages, as they are typically specific to one SoC or board.
+
+## Software
+
+This category is used for pieces of software that work across different SoCs. Examples are Generic Operating System Distributions (ex: Debian, Ubuntu, Alma) and applicationn which can be used across distros (ex: Firefox, Chromium, ffmpeg).
+
+Software is a bit tricky compared to the hardware support pages. For example: most distros include a browser and/or ffmpeg, but they are out of date. So on the software page we keep track of major milestones for RISC-V support, and may offer specific builds for some distros. We may also offer vector-enabled builds for use on specific boards (since there is a lot of variance on vector support, but this is defined on each SoC page).
+
+In the event of bugs in packages shipped in distros, we can offer builds with fixes and pages about them on the Software pages but we also need to push those bug reports upstream to the affected distro. In some cases, the the best bet may be to just use a different distro.
+
+Another major component here would be GPU drivers. Many of the SoCs are all using Imagination GPUs which can support open source drivers. We will track if the necessary firmware blobs are available, status of the kernel components, support within Mesa (and hopefully newer packages), and support for Zink for enabling legacy OpenGL and GLES support on these Vulkan Only GPU implementations.
