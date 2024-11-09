@@ -5,3 +5,4 @@ This is as a complete of a list as we can make it. Please limit these to boards 
 * VisionFive 2
 * Milk-V Mars
 * Milk-V Mars CM
+* DC ROMA Laptop
