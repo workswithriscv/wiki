@@ -36,3 +36,7 @@ sudo burn_tools/linux/fastboot reboot
 ```
 
 At this point, the board should reboot into a fresh Bianbu install and start the new setup experience. If you want to login via the serial console, the default credentials are `root` with the password of `bianbu`. Note that the default language is Simplified Chinese until you change it in the new setup experience or via the `LANG` environment variable.
+
+# See also
+- [related pmOS wiki page
+](https://wiki.postmarketos.org/wiki/Banana_Pi_BPI-F3_(bananapi-bpi-f3))
