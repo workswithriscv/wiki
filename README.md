@@ -1,4 +1,4 @@
-# Welcome to the Works With RISC-V Wiki
+# Welcome to the [Works With RISC-V Wiki](https://workswithriscv.guide/)
 
 *A community-driven resource for RISC-V hardware and software*
 
