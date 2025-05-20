@@ -94,3 +94,7 @@ heap: Display free heap memory.
 
 version: Get BMC version
 ```
+
+# See also
+
+- [related pmOS wiki page](https://wiki.postmarketos.org/wiki/SiFive_HiFive_Premier_P550_(sifive-hifive-premier-p550))
