@@ -1,3 +1,8 @@
+---
+title: TH1520 Video Subsystem
+folder: th1520
+---
+
 # TH1520 Video Subsystem
 
 # Sources
