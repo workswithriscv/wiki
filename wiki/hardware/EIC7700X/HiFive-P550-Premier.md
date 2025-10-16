@@ -17,8 +17,8 @@ On release, the BMC is very restrictive and barebones. It only supports HTTP and
 There is also a USB-C connector on the board which attaches to an FTDI FT4232-HS USB device which exposes four interfaces:
 ```
 /dev/serial/by-id/usb-FTDI_Quad_RS232-HS-if00-port0 <- JTAG for EIC7700X
-/dev/serial/by-id/usb-FTDI_Quad_RS232-HS-if01-port0 <- Serial Console for EIC7700X @ 115200bps, No Parity, 8 data bits, 1 stop bit (speed configurable by OS)
-/dev/serial/by-id/usb-FTDI_Quad_RS232-HS-if02-port0 <- JTAG for BMC
+/dev/serial/by-id/usb-FTDI_Quad_RS232-HS-if01-port0 <- JTAG for BMC
+/dev/serial/by-id/usb-FTDI_Quad_RS232-HS-if02-port0 <- Serial Console for EIC7700X @ 115200bps, No Parity, 8 data bits, 1 stop bit (speed configurable by OS)
 /dev/serial/by-id/usb-FTDI_Quad_RS232-HS-if03-port0 <- BMC Serial Interface @ 115200bps, No Parity, 8 data bits, 1 stop bit
 ```
 
